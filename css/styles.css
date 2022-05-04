@@ -1,0 +1,156 @@
+/* GLOBAL */
+h1,h2,h3 {
+  font-family: 'Montserrat', cursive;
+  font-weight: 900;
+}
+span {
+  font-weight: bold;
+}
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.white-section{
+  color:#000;
+  background-color: #fff;
+}
+/* GLOBAL */
+/* ---------------------------------------------------- */
+/* HEADINGS */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* HEADINGS */
+/* ---------------------------------------------------- */
+/* Navigation Bar */
+#title .container-fluid {
+  padding: 3% 15% 15%;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.download-button {
+  margin: 1%;
+}
+/* Navigation Bar */
+/* ---------------------------------------------------- */
+/* title-image */
+@media (min-width:1200px) {
+  #title {
+    text-align: left;
+  }
+  .img-positioning {
+    position: relative;
+  }
+
+  .title-image {
+    width: 60%;
+    position: absolute;
+    transform: rotate(20deg);
+  }
+}
+
+.title-image {
+  width: 60%;
+  padding-top: 10%;
+}
+/* title-image */
+/* ---------------------------------------------------- */
+/* feature description */
+#features {
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+}
+.feature-title{
+  font-size: 3rem;
+}
+
+.description-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.description-icons:hover {
+  color: #ff4c68;
+}
+
+.description {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #8f8f8f;
+}
+/* feature description */
+/* ---------------------------------------------------- */
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* testimonials */
+/* ---------------------------------------------------- */
+/* press */
+#press {
+  background-color: #ef8172;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px;
+}
+/* press */
+/* ---------------------------------------------------- */
+/* pricing */
+#pricing {
+  padding: 7% 15%;
+}
+.price-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-col {
+  padding: 3%;
+}
+/* pricing */
+/* ---------------------------------------------------- */
+/* footer */
+.footer-icons{
+  margin: 1%;
+}
+.copyright{
+  color: #8f8f8f;
+}
+/* footer */
